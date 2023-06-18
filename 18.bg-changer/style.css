@@ -1,0 +1,48 @@
+body {
+    background-image: url('https://i.redd.it/ddnm7kmznqd71.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    background-color: aliceblue;
+    background-image: none;
+    width: 200px;
+    height: auto;
+    padding: 20px 5px;
+    margin-right: 35px;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#btn1:active,
+#btn2:active,
+#btn3:active,
+#btn4:active {
+    transform: scale(0.95);
+}
+
+#btn1 {
+    background-color: rgb(130, 186, 130);
+}
+#btn2 {
+    background-color: rgb(116, 113, 215);
+}
+#btn3 {
+    background-color: rgb(6, 102, 175);
+}
+#btn4 {
+    background-color: rgb(251, 137, 156);
+}
